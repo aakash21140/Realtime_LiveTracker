@@ -19,7 +19,7 @@ if (navigator.geolocation) {
 }
 
 // Initialize the Leaflet map
-const map = L.map("map").setView([21.1670,81.8206], 8); // Set initial view
+const map = L.map("map").setView([21.167954,81.821301], 16); // Set initial view
 
 // Add OpenStreetMap tiles
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
